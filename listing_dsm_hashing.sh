@@ -18,8 +18,8 @@ do
         $URL \
         -H "api-secret-key: $KEY" \
         -H 'api-version: v1' \
-	    --insecure)
-	    if [ $? = 0 ]
+	--insecure)
+	if [ $? = 0 ]
         then
         echo
         else
